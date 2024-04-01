@@ -1,0 +1,17 @@
+ 
+Main-chain bond-lengths and angles, and planar groups
+-----------------------------------------------------
+ 
+ Enter filename containing coordinates of structure
+ Enter required chain-ID, or leave blank for all
+ Main-chain bond lengths         * File: P11018_Mod2_07.ps
+ Main-chain bond angles          * File: P11018_Mod2_08.ps
+ RMS distances from planarity    * File: P11018_Mod2_09.ps
+ Distorted geometry              * File: P11018_Mod2_10.ps
+    * Distorted main-chain bonds:            2
+    * Distorted main-chain angles:           3
+    * Distorted planar groups:               0
+ * Program complete
+ *
+ * Summary page: P11018_Mod2.sum
+ *

@@ -1,0 +1,40 @@
+CLEAN - Clean-up program
+------------------------
+ 
+
+
+ Clean-up program CLEAN - Written by David Keith Smith, 1989.
+                          Amended by Roman Laskowski, 1992.
+
+
+ Enter filename containing coordinates of structure
+   (for file containing ensemble of NMR structures enter @filename;
+    for set of separate PDB files to be processed, enter %filelist,
+    where filelist contains a list of PDB files to be cleaned up)
+ Average value of CA-N-C-CB angle is  34.55
+ Standard deviation is                 1.38
+ WARNING: Number of atoms/hetatms in new file differs from old file - 
+           new number =  2379
+           old number =     0
+ Total number of residues changed and total number of residues:
+     ALA     0    31
+     CYS     0     2
+     ASP     0    17
+     GLU     0    29
+     PHE     0     5
+     GLY     0    33
+     HIS     0     5
+     ILE     0    23
+     LYS     0    22
+     LEU     0    29
+     MET     0     5
+     ASN     0    21
+     PRO     0    13
+     GLN     0     7
+     ARG     0     6
+     SER     0    21
+     THR     0    14
+     VAL     0    25
+     TRP     0     2
+     TYR     0     9
+ * Program completed

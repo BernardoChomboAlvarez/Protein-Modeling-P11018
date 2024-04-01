@@ -1,0 +1,19 @@
+ 
+Phi-psi and chi1-chi2 distributions
+-----------------------------------
+ 
+ Enter filename of coordinates (prefix with a % for a non-NMR ensemble
+ Enter required chain-ID, or leave blank for all
+ Enter resolution
+ Is this an ensemble of structures (Y/N)?
+ * Unable to find keyword in parameter file: Ramachandran regions
+ Main Ramachandran plot          * File: P11018_Mod2_01.ps
+         319  residues read in
+ All-residue Ramachandran plots  * File: P11018_Mod2_02.ps
+         319  residues read in
+ All-residue chi1-chi2 plots     * File: P11018_Mod2_03.ps
+         319  residues read in
+         319  residues read in
+         319  residues read in
+         319  residues read in
+ * Program complete

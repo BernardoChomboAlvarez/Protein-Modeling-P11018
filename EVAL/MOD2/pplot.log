@@ -1,0 +1,16 @@
+ 
+Plots and residue-by-residue listing
+------------------------------------
+ 
+ * Unable to find keyword in parameter file: Ramachandran regions
+ Enter filename containing coordinates of structure
+ Enter required chain-ID, or leave blank for all
+ Enter resolution
+ Main-chain parameters           * File: P11018_Mod2_04.ps
+ Side-chain parameters           * File: P11018_Mod2_05.ps
+ Residue properties plot         * File: P11018_Mod2_06.ps
+     * cis-peptide:  PRO    193 
+ *
+ * Detailed listing: P11018_Mod2.out
+ *
+ * Program complete

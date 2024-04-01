@@ -1,0 +1,24 @@
+
+ +----------<<<  P  R  O  C  H  E  C  K     S  U  M  M  A  R  Y  >>>----------+
+ |                                                                            |
+ | P11018_Mod2.pdb   2.0                                         319 residues |
+ |                                                                            |
++| Ramachandran plot:   91.1% core    8.5% allow    0.4% gener    0.0% disall |
+ |                                                                            |
++| All Ramachandrans:    1 labelled residues (out of 317)                     |
++| Chi1-chi2 plots:      5 labelled residues (out of 180)                     |
+ | Main-chain params:    6 better     0 inside      0 worse                   |
+ | Side-chain params:    5 better     0 inside      0 worse                   |
+ |                                                                            |
+*| Residue properties: Max.deviation:     3.0              Bad contacts:    3 |
+*|                     Bond len/angle:    7.0    Morris et al class:  1  1  2 |
++|     1 cis-peptides                                                         |
+ | G-factors           Dihedrals:  -0.02  Covalent:  -0.14    Overall:  -0.06 |
+ |                                                                            |
+ | M/c bond lengths: 99.5% within limits   0.5% highlighted                   |
+*| M/c bond angles:  93.4% within limits   6.6% highlighted       1 off graph |
+ | Planar groups:   100.0% within limits   0.0% highlighted                   |
+ |                                                                            |
+ +----------------------------------------------------------------------------+
+   + May be worth investigating further.  * Worth investigating further.
+
