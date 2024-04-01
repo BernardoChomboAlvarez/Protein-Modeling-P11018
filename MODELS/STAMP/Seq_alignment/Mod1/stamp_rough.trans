@@ -1,0 +1,13 @@
+% Output from STAMP ROUGH FIT routine
+%  The sequences from the file P11018_template_seq_model.domains have been aligned from their
+%  N-terminal ends, andthe resulting equivalences were be used 
+% to generate the superpositions given below.
+% Domains M1 onto template RMS of 12.076275 on 293 atoms
+./../../P11018_Mod1.pdb M1 { ALL 
+    1.0000     0.0000     0.0000       0.0000 
+    0.0000     1.0000     0.0000       0.0000 
+    0.0000     0.0000     1.0000       0.0000  } 
+./../../../templates/6f9mA.pdb template { ALL 
+    0.1290     0.9015     0.4130      -8.2605 
+   -0.5908     0.4044    -0.6981      -5.2999 
+   -0.7964    -0.1540     0.5848      33.2086  } 
