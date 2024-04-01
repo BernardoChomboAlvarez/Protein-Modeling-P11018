@@ -59,7 +59,8 @@ Mod2.pdb| 2.0 | Secuencia | 0.0% | 3 | 1 | 93.4% | 99.5% |
 Mod3.pdb| 2.0 | Estructura | 0.4% | 6 | 1 | 94.1% | 99.5% |
 Mod4.pdb| 2.0 | Estructura | 0.0% | 5 | 1 | 94.3% | 99.2% |
 
-[FIGURA]
+![Figura 1](./figs/models.png)
+
 **Fig. 1.** Modelos resultantes para la proteína de interés P11018 (cadena
 azul), comparados contra la proteína de referencia 6f9mA (cadena roja). **A.,B.**:
 Modelos 1 y 2 hechos a partir de un alineamiento de secuencia entre nuestra
@@ -72,7 +73,8 @@ Los cuatro modelos muestran un comportamiento estructural similar. El Z-score
 del modelo 1 es de -8.35, el del modelo 2 de -8.36, el del modelo 3 de -8.48 y
 el del modelo 4 de -8.04.
 
-[FIGURA]
+![Figura 2.1](./figs/prosa_1_2.jpg)
+
 **Fig. 2.1.** Gráficas resultantes del análisis estructural de los modelos
 generados en base a secuencia. **A.** Representación del Z-score del modelo 1
 (punto negro) en
@@ -83,7 +85,8 @@ de 10 aminoácidos y la línea verde oscuro una ventana de 40 aminoácidos. Las
 figuras **C.** y **D.** representan lo mismo que las figuras **A.** y **B.** para
 el modelo 2.
 
-[FIGURA]
+![Figura 2.2](./figs/prosa_3_4.jpg)
+
 **Fig. 2.2.** Gráficas resultantes del análisis estructural de los modelos
 generados en base a estructura. **A.** Representación del Z-score del modelo 1
 (punto negro) en
@@ -100,7 +103,7 @@ QMEANDisCo Global. Es posible observar un comportamiento energético similar ent
 cuatro modelos, además de que los extremos de cada uno de los modelos, parecen
 tener scores de calidad cercanos a 0.
 
-[FIGURA]
+![Figura 3](./figs/qmeans.jpg)
 **Fig. 3.** Gráficas resultantes del análisis energético de los modelos
 generados con la herramienta QMEAN. **A.** Perfil energético del modelo 1
 (generado en base a secuencia de aminoácidos). **B.** Perfil energético del modelo 2
@@ -109,7 +112,8 @@ generados con la herramienta QMEAN. **A.** Perfil energético del modelo 1
 (generado en base a su estructura). 
 
 ### Análisis de la ubicación de distorsiones estructurales con las herramientas DSSP y PSIPRED
-[FIGURA]
+![Figura 4](./figs/dssp.jpg)
+
 **Fig .4.** Alineamiento de la predicción de distorsiones estructurales de cada
 uno de los
 cuatro modelos generados
