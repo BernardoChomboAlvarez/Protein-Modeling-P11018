@@ -114,11 +114,41 @@ generados con la herramienta QMEAN. **A.** Perfil energético del modelo 1
 ### Análisis de la ubicación de distorsiones estructurales con las herramientas DSSP y PSIPRED
 ![Figura 4](./figs/dssp.jpg)
 
-**Fig .4.** Alineamiento de la predicción de distorsiones estructurales de cada
-uno de los
-cuatro modelos generados
+**Fig .4.** Alineamiento de la predicción de distorsiones para cada
+uno de los cuatro modelos generados. Este tipo de evaluación nos permite
+interpretar los modelos obtenidos para deducir las estructuras secundrias que
+se observarían si se plegara la proteína. Se compara contra una predicción para determinar
+si nuestro modelo tendría una estructura secundaria que haga sentido.
 
 ## Discusión y Conclusiones
 
+Los cuatro modelos propuestos para la proteína P11018 resultaron ser bastante similares por 
+sus perfiles energéticos, estequiométricos, estructurales, así como en la ubicación de sus distorsiones.
+Las diferencias esperadas entre un modelo generado en base a la secuencia de aminoácidos y un modelo generado 
+en base a estructuras tridimensionales no fue notoria en los resultados obtenidos. El comportamiento similar 
+de los modelos, se sugiere, puede deberse a que las proteínas de la superfamilia de las subtilisinas empleadas
+como referencia (2wv7, 6fm9, 7xr8 y 7y6m) fueron las primeras 4 que presentaron la mayor cobertura con respecto
+a la proteína de interés, P11018.
+
+Con respecto a los resultados obtenidos, se concluye que el modelo 2 es el mejor modelo generado por haber obtenido
+los menores scores de aminoácidos desalineados, malos contactos entre aminoácidos, mayor porcentaje de ángulos dentro
+del valor de corte y mayor porcentaje de longitudes de sus enlaces. Sin embargo, no existe una diferencia significativa
+entre los cuatro modelos generados. Finalmente, la generación de más modelos a partir de homólogos con mayor cobertura de
+alineamiento o partir de otro tipo de conocimiento biológico previo (como la clase de familia de proteínas a la que pertenece)
+puede enriquecer los modelos predichos y hacerlos más robustos. También vale la pena resaltar que para este análisis se corrieron
+programas especializados, con los parámetros default; el análisis previo y consecuente ajuste de estos para el caso de nuestra
+proteína de interés también pueden generar resultados aún mejores y predicciones más robustas.
 
 ## Referencias
+
+1. Wiederstein M, Sippl MJ. ProSA-web: interactive web service for the recognition of errors in three-dimensional structures of proteins.
+Nucleic Acids Res. 2007 Jul;35(Web Server issue):W407-10. doi: 10.1093/nar/gkm290. Epub 2007 May 21. PMID: 17517781; PMCID: PMC1933241.
+
+2. Benkert P, Tosatto SC, Schomburg D. QMEAN: A comprehensive scoring function for model quality assessment. Proteins. 2008 Apr;71(1):261-77.
+doi: 10.1002/prot.21715. PMID: 17932912.
+
+3. Russell RB, Barton GJ. Multiple protein sequence alignment from tertiary structure comparison: assignment of global and residue confidence
+levels. Proteins. 1992 Oct;14(2):309-23. doi: 10.1002/prot.340140216. PMID: 1409577.
+
+4. H.M. Berman, J. Westbrook, Z. Feng, G. Gilliland, T.N. Bhat, H. Weissig, I.N. Shindyalov, P.E. Bourne, The Protein Data Bank (2000) Nucleic
+Acids Research 28: 235-242 https://doi.org/10.1093/nar/28.1.235.
